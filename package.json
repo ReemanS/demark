@@ -1,0 +1,30 @@
+{
+  "name": "demark",
+  "version": "1.0.0",
+  "description": "a simple markdown to web content parser",
+  "keywords": [
+    "markdown"
+  ],
+  "homepage": "https://github.com/ReemanS/demark#readme",
+  "bugs": {
+    "url": "https://github.com/ReemanS/demark/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReemanS/demark.git"
+  },
+  "license": "MIT",
+  "author": "Reeman Singh",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
