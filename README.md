@@ -15,17 +15,14 @@ I created this to mainly be used in my web portfolio, but feel free to try it ou
 
 ## Installation
 
-Since this package isn't yet published to npm, install it locally:
+Since this package isn't yet published to npm, you can install it locally using npm pack:
 
-```
-# from your project directory
-npm install file:../path/to/demark
-```
+```bash
+# from the demark directory, create a package
+npm pack
 
-or copy the demark folder into your project and install:
-
-```
-npm install file:./demark
+# then from your project directory, install the generated .tgz file
+npm install ../path/to/demark-1.0.0.tgz
 ```
 
 ## Usage
